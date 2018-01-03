@@ -5,6 +5,7 @@
 使用阿里巴巴开发的AnyProxy作为HTTP代理
 
 node.js通过npm install -g anyproxy 安装AnyProxy
+node.js通过npm install crypto-js request-promise 安装crypto-js
 
 使用anyproxy-ca 生成证书
 使用anyproxy -i --rule=路径+wxdump.js  启用https代理
@@ -14,6 +15,7 @@ node.js通过npm install -g anyproxy 安装AnyProxy
 
 移动端要安装证书才能使用，不然无法拦截https请求
 然后移动端通过浏览器进入 ip:8002  点击下载crt证书  进行安装
+ios11需要打开【设置】>【通用】>【关于本机】>【证书信任设置】>【AnyProxy】
 
 安装后 关闭wifi  重新开启wifi
 
